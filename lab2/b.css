@@ -1,0 +1,27 @@
+.font{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:rgb(25, 94, 221);
+    text-align: left;
+    margin-bottom: 100px;
+
+}
+.form{
+    width: 520px;
+    background:#fff;
+    padding: 28px;
+    border-radius: 14px;
+    box-sizing:border-box;
+}
+.form__enter{
+    display: flex;
+    flex-direction: column;
+    gap:18px;
+}
+
+
+.box{
+    width: 30x;
+    height: 50px;
+    padding: 0 26px;
+    font-size: 34px;
+}
