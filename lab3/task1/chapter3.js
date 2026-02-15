@@ -5,12 +5,12 @@ function calcRectangleArea(width, height) {
   const area = width * height;
   return area;
 }
-console.log(calcRectangleArea(4, 5)); // 20
+console.log(calcRectangleArea(4, 5));
 
 
 
 const truncated = 3.7 | 0;
-console.log(truncated); 
+console.log(truncated);
 
 
 
