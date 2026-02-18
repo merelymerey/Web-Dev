@@ -11,11 +11,11 @@ export class ProductService {
       price: 599990,
       rating: 4.8,
       category: 'Smartphones',
-      image: 'https://placehold.co/600x600/1d1d1f/f5f5f7?text=iPhone+16',
+      image: 'https://www.apple.com/newsroom/images/2024/09/apple-introduces-iphone-16-and-iphone-16-plus/article/Apple-iPhone-16-hero-240909_inline.jpg.large.jpg',
       images: [
-        'https://placehold.co/600x600/1d1d1f/f5f5f7?text=iPhone+16+Front',
-        'https://placehold.co/600x600/2d2d2d/f5f5f7?text=iPhone+16+Back',
-        'https://placehold.co/600x600/3d3d3d/f5f5f7?text=iPhone+16+Side'
+        'https://www.apple.com/newsroom/images/2024/09/apple-introduces-iphone-16-and-iphone-16-plus/article/Apple-iPhone-16-hero-240909_inline.jpg.large.jpg',
+        'https://www.apple.com/newsroom/images/2024/09/apple-introduces-iphone-16-and-iphone-16-plus/article/Apple-iPhone-16-lineup-240909_big.jpg.large.jpg',
+        'https://www.apple.com/newsroom/images/2024/09/apple-introduces-iphone-16-and-iphone-16-plus/article/Apple-iPhone-16-finish-lineup-240909_big.jpg.large.jpg'
       ],
       link: 'https://kaspi.kz/shop/p/apple-iphone-16-128gb-chernyi-123713453/'
     },
@@ -26,11 +26,11 @@ export class ProductService {
       price: 899990,
       rating: 4.9,
       category: 'Smartphones',
-      image: 'https://placehold.co/600x600/111827/f9fafb?text=S25+Ultra',
+      image: 'https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s25-ultra-sm-s938.jpg',
       images: [
-        'https://placehold.co/600x600/111827/f9fafb?text=S25+Ultra+Front',
-        'https://placehold.co/600x600/1f2937/f9fafb?text=S25+Ultra+Back',
-        'https://placehold.co/600x600/374151/f9fafb?text=S25+Ultra+S-Pen'
+        'https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s25-ultra-sm-s938.jpg',
+        'https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-s25-ultra-sm-s938-1.jpg',
+        'https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-s25-ultra-sm-s938-2.jpg'
       ],
       link: 'https://kaspi.kz/shop/p/samsung-galaxy-s25-ultra-5g-12-gb-512-gb-temno-chernyi-133434601/'
     },
@@ -41,11 +41,11 @@ export class ProductService {
       price: 829990,
       rating: 4.8,
       category: 'Smartphones',
-      image: 'https://placehold.co/600x600/6b7280/f9fafb?text=S25+Ultra+Gray',
+      image: 'https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-s25-ultra-sm-s938-3.jpg',
       images: [
-        'https://placehold.co/600x600/6b7280/f9fafb?text=Gray+Front',
-        'https://placehold.co/600x600/9ca3af/1f2937?text=Gray+Back',
-        'https://placehold.co/600x600/d1d5db/1f2937?text=Gray+Side'
+        'https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-s25-ultra-sm-s938-3.jpg',
+        'https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-s25-ultra-sm-s938-4.jpg',
+        'https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s25-ultra-sm-s938.jpg'
       ],
       link: 'https://kaspi.kz/shop/p/samsung-galaxy-s25-ultra-5g-12-gb-256-gb-seryi-133434844/'
     },
@@ -56,11 +56,11 @@ export class ProductService {
       price: 449990,
       rating: 4.7,
       category: 'Smartphones',
-      image: 'https://placehold.co/600x600/1e3a5f/f0f9ff?text=Galaxy+S25',
+      image: 'https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s25.jpg',
       images: [
-        'https://placehold.co/600x600/1e3a5f/f0f9ff?text=S25+Front',
-        'https://placehold.co/600x600/1d4ed8/f0f9ff?text=S25+Back',
-        'https://placehold.co/600x600/3b82f6/f0f9ff?text=S25+Side'
+        'https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s25.jpg',
+        'https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-s25-1.jpg',
+        'https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-s25-2.jpg'
       ],
       link: 'https://kaspi.kz/shop/p/samsung-galaxy-s25-5g-12-gb-256-gb-sinii-133432433/'
     },
@@ -71,11 +71,11 @@ export class ProductService {
       price: 899990,
       rating: 4.8,
       category: 'Smartphones',
-      image: 'https://placehold.co/600x600/0a0a0a/f5f5f5?text=S25+Ultra+Black',
+      image: 'https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-s25-ultra-sm-s938-1.jpg',
       images: [
-        'https://placehold.co/600x600/0a0a0a/f5f5f5?text=Black+Front',
-        'https://placehold.co/600x600/1a1a1a/f5f5f5?text=Black+Back',
-        'https://placehold.co/600x600/2a2a2a/f5f5f5?text=Black+Detail'
+        'https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-s25-ultra-sm-s938-1.jpg',
+        'https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-s25-ultra-sm-s938-2.jpg',
+        'https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-s25-ultra-sm-s938-4.jpg'
       ],
       link: 'https://kaspi.kz/shop/p/samsung-galaxy-s25-ultra-5g-12-gb-512-gb-chernyi-133435341/'
     },
@@ -86,11 +86,11 @@ export class ProductService {
       price: 474795,
       rating: 4.9,
       category: 'Laptops',
-      image: 'https://placehold.co/600x600/e8e8ed/1d1d1f?text=MacBook+Air+13',
+      image: 'https://www.apple.com/newsroom/images/2025/03/apple-introduces-the-new-macbook-air-with-the-m4-chip-and-a-sky-blue-color/article/Apple-MacBook-Air-hero-250305_big.jpg.large.jpg',
       images: [
-        'https://placehold.co/600x600/e8e8ed/1d1d1f?text=Air+13+Open',
-        'https://placehold.co/600x600/d1d1d6/1d1d1f?text=Air+13+Closed',
-        'https://placehold.co/600x600/c7c7cc/1d1d1f?text=Air+13+Side'
+        'https://www.apple.com/newsroom/images/2025/03/apple-introduces-the-new-macbook-air-with-the-m4-chip-and-a-sky-blue-color/article/Apple-MacBook-Air-hero-250305_big.jpg.large.jpg',
+        'https://www.apple.com/newsroom/images/2025/03/apple-introduces-the-new-macbook-air-with-the-m4-chip-and-a-sky-blue-color/article/Apple-MacBook-Air-sky-blue-250305_big.jpg.large.jpg',
+        'https://www.apple.com/newsroom/images/2025/03/apple-introduces-the-new-macbook-air-with-the-m4-chip-and-a-sky-blue-color/article/Apple-MacBook-Air-lifestyle-on-the-go-250305_big.jpg.large.jpg'
       ],
       link: 'https://kaspi.kz/shop/p/apple-macbook-air-13-2025-16-gb-ssd-256-gb-macos-mc6t4ru-a-138153200/'
     },
@@ -101,11 +101,11 @@ export class ProductService {
       price: 549990,
       rating: 4.8,
       category: 'Laptops',
-      image: 'https://placehold.co/600x600/f0ede8/1d1d1f?text=MacBook+Air+13+512',
+      image: 'https://www.apple.com/newsroom/images/2025/03/apple-introduces-the-new-macbook-air-with-the-m4-chip-and-a-sky-blue-color/article/Apple-MacBook-Air-lineup-250305_big.jpg.large.jpg',
       images: [
-        'https://placehold.co/600x600/f0ede8/1d1d1f?text=Starlight+Open',
-        'https://placehold.co/600x600/e8e2d9/1d1d1f?text=Starlight+Closed',
-        'https://placehold.co/600x600/ddd6ce/1d1d1f?text=Starlight+Side'
+        'https://www.apple.com/newsroom/images/2025/03/apple-introduces-the-new-macbook-air-with-the-m4-chip-and-a-sky-blue-color/article/Apple-MacBook-Air-lineup-250305_big.jpg.large.jpg',
+        'https://www.apple.com/newsroom/images/2025/03/apple-introduces-the-new-macbook-air-with-the-m4-chip-and-a-sky-blue-color/article/Apple-MacBook-Air-top-view-250305_big.jpg.large.jpg',
+        'https://www.apple.com/newsroom/images/2025/03/apple-introduces-the-new-macbook-air-with-the-m4-chip-and-a-sky-blue-color/article/Apple-MacBook-Air-side-view-250305_big.jpg.large.jpg'
       ],
       link: 'https://kaspi.kz/shop/p/apple-macbook-air-13-2025-16-gb-ssd-512-gb-macos-mw133-138242483/'
     },
@@ -116,11 +116,11 @@ export class ProductService {
       price: 586800,
       rating: 4.8,
       category: 'Laptops',
-      image: 'https://placehold.co/600x600/1c2127/e2e8f0?text=MacBook+Air+15',
+      image: 'https://www.apple.com/newsroom/images/2025/03/apple-introduces-the-new-macbook-air-with-the-m4-chip-and-a-sky-blue-color/article/Apple-MacBook-Air-lifestyle-at-home-250305_big.jpg.large.jpg',
       images: [
-        'https://placehold.co/600x600/1c2127/e2e8f0?text=Midnight+Open',
-        'https://placehold.co/600x600/252d35/e2e8f0?text=Midnight+Closed',
-        'https://placehold.co/600x600/2e3640/e2e8f0?text=Midnight+Side'
+        'https://www.apple.com/newsroom/images/2025/03/apple-introduces-the-new-macbook-air-with-the-m4-chip-and-a-sky-blue-color/article/Apple-MacBook-Air-lifestyle-at-home-250305_big.jpg.large.jpg',
+        'https://www.apple.com/newsroom/images/2025/03/apple-introduces-the-new-macbook-air-with-the-m4-chip-and-a-sky-blue-color/article/Apple-MacBook-Air-lifestyle-at-work-250305_big.jpg.large.jpg',
+        'https://www.apple.com/newsroom/images/2025/03/apple-introduces-the-new-macbook-air-with-the-m4-chip-and-a-sky-blue-color/article/Apple-MacBook-Air-multitasking-and-multidisplay-250305_big.jpg.large.jpg'
       ],
       link: 'https://kaspi.kz/shop/p/apple-macbook-air-15-2025-16-gb-ssd-256-gb-macos-mw1j3-139195756/'
     },
@@ -131,11 +131,11 @@ export class ProductService {
       price: 699990,
       rating: 4.9,
       category: 'Laptops',
-      image: 'https://placehold.co/600x600/e5e5ea/1d1d1f?text=Air+15+24GB',
+      image: 'https://www.apple.com/newsroom/images/2025/03/apple-introduces-the-new-macbook-air-with-the-m4-chip-and-a-sky-blue-color/article/Apple-MacBook-Air-Liquid-Retina-display-250305_big.jpg.large.jpg',
       images: [
-        'https://placehold.co/600x600/e5e5ea/1d1d1f?text=Silver+Open',
-        'https://placehold.co/600x600/d8d8de/1d1d1f?text=Silver+Closed',
-        'https://placehold.co/600x600/cbcbd2/1d1d1f?text=Silver+Detail'
+        'https://www.apple.com/newsroom/images/2025/03/apple-introduces-the-new-macbook-air-with-the-m4-chip-and-a-sky-blue-color/article/Apple-MacBook-Air-Liquid-Retina-display-250305_big.jpg.large.jpg',
+        'https://www.apple.com/newsroom/images/2025/03/apple-introduces-the-new-macbook-air-with-the-m4-chip-and-a-sky-blue-color/article/Apple-MacBook-Air-Touch-ID-and-Magic-Keyboard-250305_big.jpg.large.jpg',
+        'https://www.apple.com/newsroom/images/2025/03/apple-introduces-the-new-macbook-air-with-the-m4-chip-and-a-sky-blue-color/article/Apple-MacBook-Air-Desk-View-250305_big.jpg.large.jpg'
       ],
       link: 'https://kaspi.kz/shop/p/apple-macbook-air-15-2025-24-gb-ssd-512-gb-macos-mc6k4ru-a-138171834/'
     },
@@ -146,11 +146,11 @@ export class ProductService {
       price: 99990,
       rating: 4.7,
       category: 'Accessories',
-      image: 'https://placehold.co/600x600/f5f5f7/1d1d1f?text=AirPods+Pro',
+      image: 'https://www.apple.com/newsroom/images/2024/09/apple-introduces-airpods-4/article/Apple-AirPods-hero-240909_big.jpg.large.jpg',
       images: [
-        'https://placehold.co/600x600/f5f5f7/1d1d1f?text=AirPods+Case',
-        'https://placehold.co/600x600/ebebf0/1d1d1f?text=AirPods+Earbuds',
-        'https://placehold.co/600x600/e1e1e6/1d1d1f?text=AirPods+Detail'
+        'https://www.apple.com/newsroom/images/2024/09/apple-introduces-airpods-4/article/Apple-AirPods-hero-240909_big.jpg.large.jpg',
+        'https://www.apple.com/newsroom/images/2024/09/apple-introduces-airpods-4/article/Apple-AirPods-4-with-case-240909_big.jpg.large.jpg',
+        'https://www.apple.com/newsroom/images/2024/09/apple-introduces-airpods-4/article/Apple-AirPods-lifestyle-240909_big.jpg.large.jpg'
       ],
       link: 'https://kaspi.kz/shop/p/naushniki-apple-airpods-pro-belyi-4804718/'
     }
