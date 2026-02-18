@@ -1,0 +1,54 @@
+<section class="page-header">
+  <div class="container">
+    <h1>Tech Store</h1>
+    <p>Discover the latest smartphones, laptops & accessories from Kaspi.kz</p>
+  </div>
+</section>
+
+<div class="container toolbar-wrap">
+  <div class="toolbar">
+    <div class="search-box">
+      <input
+        type="text"
+        placeholder="Search products..."
+        [(ngModel)]="searchQuery"
+        (ngModelChange)="onSearchChange()"
+        class="search-input"
+        aria-label="Search products"
+      />
+      <button *ngIf="searchQuery" class="clear-btn" (click)="clearFilters()" aria-label="Clear search">&#10005;</button>
+    </div>
+
+    <div class="category-filters">
+      <button
+        *ngFor="let cat of categories"
+        class="filter-btn"
+        [class.active]="selectedCategory === cat"
+        (click)="selectCategory(cat)"
+      >
+        {{ cat }}
+      </button>
+    </div>
+  </div>
+
+  <p class="results-count" *ngIf="filteredProducts.length !== products.length">
+    Showing {{ filteredProducts.length }} of {{ products.length }} products
+  </p>
+</div>
+
+<main class="container">
+  <div class="product-grid" *ngIf="filteredProducts.length > 0">
+    <app-product-card
+      *ngFor="let product of filteredProducts; trackBy: trackById"
+      [product]="product"
+      (shareRequested)="onShare($event)"
+    ></app-product-card>
+  </div>
+
+  <div class="empty-state" *ngIf="filteredProducts.length === 0">
+    <p class="empty-icon">&#128269;</p>
+    <h3>No products found</h3>
+    <p>Try adjusting your search or filter.</p>
+    <button class="btn-reset" (click)="clearFilters()">Reset filters</button>
+  </div>
+</main>

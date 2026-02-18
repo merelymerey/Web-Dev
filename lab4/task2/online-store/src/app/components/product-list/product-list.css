@@ -1,0 +1,159 @@
+.page-header {
+  background: linear-gradient(135deg, #d1001f 0%, #9b1c1c 100%);
+  color: #fff;
+  padding: 3.5rem 0 3rem;
+  text-align: center;
+}
+
+.page-header h1 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin: 0 0 .5rem;
+  letter-spacing: -.03em;
+}
+
+.page-header p {
+  font-size: 1.05rem;
+  margin: 0;
+  opacity: .88;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+/* ─── Toolbar ─── */
+.toolbar-wrap {
+  padding-top: 1.5rem;
+  padding-bottom: .75rem;
+}
+
+.toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: flex-start;
+}
+
+.search-box {
+  position: relative;
+  flex: 1 1 260px;
+  max-width: 380px;
+}
+
+.search-input {
+  width: 100%;
+  padding: .6rem 2.2rem .6rem 1rem;
+  border: 2px solid #e5e7eb;
+  border-radius: .5rem;
+  font-size: .9rem;
+  font-family: inherit;
+  transition: border-color .2s;
+  box-sizing: border-box;
+}
+
+.search-input:focus {
+  outline: none;
+  border-color: #d1001f;
+}
+
+.clear-btn {
+  position: absolute;
+  right: .65rem;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #9ca3af;
+  font-size: .9rem;
+  line-height: 1;
+  padding: 0;
+}
+
+.clear-btn:hover { color: #374151; }
+
+.category-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .375rem;
+}
+
+.filter-btn {
+  padding: .4rem .9rem;
+  border: 2px solid #e5e7eb;
+  border-radius: 9999px;
+  background: #fff;
+  color: #6b7280;
+  font-size: .82rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all .15s;
+}
+
+.filter-btn:hover {
+  border-color: #d1001f;
+  color: #d1001f;
+}
+
+.filter-btn.active {
+  background: #d1001f;
+  border-color: #d1001f;
+  color: #fff;
+}
+
+.results-count {
+  font-size: .82rem;
+  color: #6b7280;
+  margin: 0 0 .25rem;
+}
+
+/* ─── Grid ─── */
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+  padding: 1rem 0 3rem;
+}
+
+/* ─── Empty state ─── */
+.empty-state {
+  text-align: center;
+  padding: 5rem 2rem;
+  color: #6b7280;
+}
+
+.empty-icon {
+  font-size: 3rem;
+  margin: 0 0 1rem;
+}
+
+.empty-state h3 {
+  font-size: 1.25rem;
+  color: #111827;
+  margin: 0 0 .5rem;
+}
+
+.empty-state p { margin: 0 0 1.5rem; }
+
+.btn-reset {
+  background: #d1001f;
+  color: #fff;
+  border: none;
+  padding: .6rem 1.25rem;
+  border-radius: .5rem;
+  font-size: .875rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background .15s;
+}
+
+.btn-reset:hover { background: #a3001a; }
+
+/* ─── Responsive ─── */
+@media (max-width: 640px) {
+  .page-header h1 { font-size: 1.75rem; }
+  .product-grid { grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 1rem; }
+}
