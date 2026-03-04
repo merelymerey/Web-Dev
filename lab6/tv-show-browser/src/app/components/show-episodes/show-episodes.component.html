@@ -1,0 +1,31 @@
+<div class="episodes-container">
+  <button class="btn-back" (click)="goBack()">&#8592; Back to Show</button>
+
+  <h1>Episodes</h1>
+
+  <p class="loading" *ngIf="loading">Loading...</p>
+
+  <p class="empty" *ngIf="!loading && seasons.length === 0">No episodes found.</p>
+
+  <div *ngFor="let s of seasons" class="season-block">
+    <h2>Season {{ s.season }}</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Title</th>
+          <th>Air Date</th>
+          <th>Runtime</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let ep of s.episodes">
+          <td>{{ ep.number }}</td>
+          <td>{{ ep.name }}</td>
+          <td>{{ ep.airdate || 'N/A' }}</td>
+          <td>{{ ep.runtime ? ep.runtime + ' min' : 'N/A' }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

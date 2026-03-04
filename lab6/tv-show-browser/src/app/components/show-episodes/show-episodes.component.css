@@ -1,0 +1,78 @@
+.episodes-container h1 {
+  color: #E50914;
+  margin-bottom: 24px;
+  font-size: 28px;
+}
+
+.btn-back {
+  background: none;
+  border: none;
+  color: #666;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 0;
+  margin-bottom: 24px;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  transition: color 0.2s;
+}
+
+.btn-back:hover {
+  color: #E50914;
+}
+
+.loading {
+  color: #888;
+  font-style: italic;
+}
+
+.season-block {
+  margin-bottom: 32px;
+}
+
+.season-block h2 {
+  background: #E50914;
+  color: #fff;
+  padding: 10px 16px;
+  margin: 0;
+  font-size: 16px;
+  border-radius: 4px 4px 0 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-top: none;
+  border-radius: 0 0 4px 4px;
+  overflow: hidden;
+}
+
+th, td {
+  border-bottom: 1px solid #e0e0e0;
+  padding: 10px 16px;
+  text-align: left;
+  font-size: 14px;
+}
+
+th {
+  background: #f9f9f9;
+  color: #333;
+  font-weight: 600;
+}
+
+td {
+  color: #555;
+}
+
+tr:hover td {
+  background: #fff5f5;
+  color: #222;
+}
+
+.empty {
+  color: #888;
+  font-style: italic;
+}

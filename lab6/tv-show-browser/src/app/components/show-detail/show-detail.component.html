@@ -1,0 +1,40 @@
+<div class="detail-container">
+  <button class="btn-back" (click)="goBack()">&#8592; Back to Shows</button>
+
+  <p class="loading" *ngIf="loading">Loading...</p>
+
+  <div *ngIf="!loading && show">
+    <div class="detail-top">
+      <img *ngIf="show.image" [src]="show.image.medium" [alt]="show.name" />
+      <div *ngIf="!show.image" class="no-poster">No Image</div>
+      <div class="detail-info">
+        <h1>{{ show.name }}</h1>
+        <p><strong>Status:</strong> {{ show.status }}</p>
+        <p><strong>Genres:</strong> {{ show.genres.join(', ') || 'N/A' }}</p>
+        <p><strong>Language:</strong> {{ show.language }}</p>
+        <p><strong>Rating:</strong> {{ show.rating.average ?? 'N/A' }}</p>
+        <p><strong>Network:</strong> {{ show.network?.name ?? 'N/A' }}</p>
+        <a class="btn-episodes" [routerLink]="['/shows', show.id, 'episodes']">View Episodes</a>
+      </div>
+    </div>
+
+    <div *ngIf="show.summary" class="summary">
+      <h2>Summary</h2>
+      <div [innerHTML]="show.summary"></div>
+    </div>
+
+    <div *ngIf="cast.length > 0" class="cast">
+      <h2>Cast</h2>
+      <div class="cast-grid">
+        <div class="cast-card" *ngFor="let member of cast">
+          <img *ngIf="member.person.image" [src]="member.person.image.medium" [alt]="member.person.name" />
+          <div *ngIf="!member.person.image" class="no-photo">No Photo</div>
+          <p><strong>{{ member.person.name }}</strong></p>
+          <p class="char">as {{ member.character.name }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <p class="not-found" *ngIf="!loading && !show">Show not found.</p>
+</div>
