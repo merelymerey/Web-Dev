@@ -1,0 +1,5 @@
+n = int(input())
+arr = list(map(int, input().split()))
+unique = list(set(arr))
+unique.sort()
+print(*unique)
