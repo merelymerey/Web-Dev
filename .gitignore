@@ -1,2 +1,24 @@
+# OS
 .DS_Store
+
+# Images
 *.png
+
+# Dependencies
+node_modules/
+
+# Angular
+.angular/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Environment
+.env
